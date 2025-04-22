@@ -7,8 +7,8 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fffaf5;
-    color: #333;
+    background-color: #000000;
+    color: #333333;
     line-height: 1.6;
   }
   .container{
@@ -228,7 +228,7 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 30px 20px;
-    background-color: #1f1e1e;
+    background-color: #11151a;
     box-shadow: 0px 5px 10px black;
   }
 
@@ -242,7 +242,7 @@
   .subtitle {
     text-align: center;
     font-size: 20px;
-    color: #e65b4d;
+    color: #2fc9eb;
     margin-bottom: 30px;
   }
 
@@ -251,7 +251,7 @@
   }
 
   .section h2 {
-    background-color: #ff7f00;
+    background-color: #2792e3;
     display: inline-block;
     padding: 8px 16px;
     font-size: 22px;
@@ -294,11 +294,12 @@
 
   
 .about {
-  background-color: #1f1e1e; /* White background for the about section */
+  background-color: #000000; /* White background for the about section */
   padding: 20px;
   /* border-radius: 5px; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px; /* Space below the about section */
+  text-align: center;
 }
 
 .about h2 {
@@ -317,25 +318,19 @@
 
 .about p {
   font-size: 16px;
-  color: #e65b4d;
+  color: #36a5dd;
   line-height: 1.6; /* Improved line spacing for readability */
-  margin-bottom: 15px;
-}
-
-.about ul {
-  list-style-type: disc; /* Bullet points for the list */
-  padding-left: 20px; /* Indentation for the list */
   margin-bottom: 15px;
 }
 
 .about ul li {
   font-size: 16px;
-  color: #e65b4d;
+  color: #36a5dd;
   margin-bottom: 5px; /* Space between list items */
 }
 
 footer {
-  background-color: #333; /* Dark background for the footer */
+  background-color: #3f505d; /* Dark background for the footer */
   color: #fff; /* White text color */
   text-align: center; /* Centered text */
   padding: 15px 0; /* Padding for the footer */
@@ -349,7 +344,7 @@ footer p {
   font-size: 14px; /* Font size for footer text */
 }
 #reservationForm {
-  background-color: #1f1e1e; /* White background for the form */
+  background-color: #000000; /* White background for the form */
   padding: 20px;
   border-radius: 5px;
   margin-top: 50px;
@@ -378,12 +373,13 @@ footer p {
 }
 
 #reservationForm input:focus {
-  border-color: #e74c3c; /* Change border color on focus */
+  border-color:#33b9bc; /* Change border color on focus */
+  ; /* Change border color on focus */
   outline: none; /* Remove default outline */
 }
 
 #reservationForm button {
-  background-color: #e74c3c; /* Button background color */
+  background-color: #15acc7; /* Button background color */
   color: #fff; /* White text color */
   padding: 10px 15px; /* Padding for button */
   border: none; /* Remove border */
@@ -395,11 +391,11 @@ footer p {
 }
 
 #reservationForm button:hover {
-  background-color: #c0392b; /* Darker shade on hover */
+  background-color: #167184; /* Darker shade on hover */
 }
 
 footer {
-  background-color: #333; /* Dark background for the footer */
+  background-color: #374a50; /* Dark background for the footer */
   color: #fff; /* White text color */
   text-align: center; /* Centered text */
   padding: 15px 0; /* Padding for the footer */
@@ -413,13 +409,14 @@ footer p {
   font-size: 14px; /* Font size for footer text */
 }
 #contact {
-  background-color: #1f1e1e; /* White background for the contact section */
+  background-color: #000000; /* White background for the contact section */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.76);
   max-width: 600px; /* Maximum width for the contact section */
   margin: 0 auto; /* Center the contact section on the page */
   /* color: white; */
+  text-align: center;
 }
 
 #contact h2 {
@@ -445,12 +442,12 @@ footer p {
 }
 
 #contact a {
-  color: #e74c3c; /* Color for links */
+  color: #16d8fa; /* Color for links */
   text-decoration: none; /* Remove underline from links */
 }
 
 #contact a:hover {
-  text-decoration: underline; /* Underline on hover for links */
+  text-decoration:underline; /* Underline on hover for links */
 }
 
 #contact ul {
@@ -484,12 +481,12 @@ footer p {
 }
 
 #contact input:focus, #contact textarea:focus {
-  border-color: #e74c3c; /* Change border color on focus */
+  border-color: #33b9bc; /* Change border color on focus */
   outline: none; /* Remove default outline */
 }
 
 #contact button {
-  background-color: #e74c3c; /* Button background color */
+  background-color: #15acc7; /* Button background color */
   color: #fff; /* White text color */
   padding: 10px 15px; /* Padding for button */
   border: none; /* Remove border */
@@ -502,5 +499,5 @@ footer p {
 }
 
 #contact button:hover {
-  background-color: #c0392b; /* Darker shade on hover */
+  background-color: #167184; /* Darker shade on hover */
 }
